@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    /* Centre it. */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    /* Re-size up to a point.. */
+    max-width: 62%;
+    max-height: 100%;
+    /* ...but always maintain aspect ratio. */
+    width: auto;
+    height: auto;
+}
