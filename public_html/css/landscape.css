@@ -1,0 +1,49 @@
+#left-column, #centre-column, #right-column {
+    /* Adjust for whitespace. */
+    margin-right: -4px;
+}
+
+#centre-column {
+    position: relative; /* So can be used as an anchor for absolutely positioned inner elements. */
+    display: inline-block;
+    width: 62%;
+    height: 100%;
+}
+
+.side-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+}
+
+#logo {
+    /* Centre in container. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.link {
+    position: relative;
+    height: 33.33%;
+}
+
+.link svg {
+    max-width: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link img {
+    width: 62%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

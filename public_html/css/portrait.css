@@ -1,0 +1,47 @@
+.side-column {
+    height: 19%;
+}
+
+#centre-column {
+    position: relative;
+    height: 62%;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    height: 100%;
+    /* Adjust for whitespace. */
+    margin-right: -4px;
+}
+
+.link svg {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

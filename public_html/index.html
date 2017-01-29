@@ -1,11 +1,87 @@
 <html>
     <head>
-        <link href="css/reset.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/landscape.css" media="(orientation: landscape)">
+        <link rel="stylesheet" href="css/portrait.css" media="(orientation: portrait)">
+        <link rel="stylesheet" href="css/portrait-thin.css" media="(max-aspect-ratio: 1/2)">
     </head>
-    <div id="left-column">
-    </div>
-    <img id="logo" src="images/DM.jpg" alt="logo" height="100%">
-    <div id="right-column">
-    </div>
+    <body>
+        <svg class="svg-def">
+            <defs>
+                <clipPath id="octocat">
+                    <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M190.76 134.3C179.52 134.3 170.4 143.42 170.4 154.66C170.4 163.66 176.24 171.29 184.33 173.98C185.34 174.17 185.71 173.54 185.71 173C185.71 172.52 185.7 171.24 185.69 169.54C180.02 170.77 178.83 166.81 178.83 166.81C177.9 164.46 176.57 163.83 176.57 163.83C174.72 162.57 176.71 162.59 176.71 162.59C178.75 162.74 179.83 164.69 179.83 164.69C181.64 167.8 184.59 166.9 185.75 166.38C185.94 165.07 186.46 164.17 187.05 163.66C182.52 163.15 177.77 161.4 177.77 153.6C177.77 151.37 178.56 149.56 179.87 148.13C179.66 147.62 178.96 145.55 180.06 142.75C180.06 142.75 181.77 142.2 185.66 144.83C187.29 144.38 189.03 144.16 190.76 144.15C192.49 144.16 194.23 144.38 195.86 144.83C199.75 142.2 201.45 142.75 201.45 142.75C202.56 145.55 201.87 147.62 201.66 148.13C202.96 149.56 203.75 151.37 203.75 153.6C203.75 161.42 198.99 163.14 194.45 163.64C195.18 164.27 195.83 165.52 195.83 167.42C195.83 170.14 195.81 172.33 195.81 173C195.81 173.55 196.18 174.18 197.21 173.98C205.29 171.28 211.12 163.66 211.12 154.66C211.12 143.42 202.01 134.3 190.76 134.3">
+                    </path>
+                </clipPath>
+            </defs>
+        </svg>
+        <svg class="svg-def">
+            <defs>
+                <mask id="email" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+                       <linearGradient id="grad" gradientUnits="objectBoundingBox" x2="0" y2="1">
+                    <stop stop-color="white" offset="0"/>
+                    <stop stop-color="black" stop-opacity="0" offset="1"/>
+                   </linearGradient>
+                   <circle cx="0.50" cy="0.50" r="0.50" id="circle" fill="url(#grad)"/>
+                </mask>
+            </defs>
+        </svg>
+        <svg class="svg-def">
+            <defs>
+                <mask>
+                    <circle id="circle" cx="100" cy="100" r="100"/>
+                </mask>
+            </defs>           
+        </svg>
+        <div id="left-column" class="side-column">
+            <!-- GitHub -->
+            <div class="link">
+                <a href="https://github.com/moderatemisbehaviour">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="170.39999999999998 134.30124999999998 40.72374999999997 39.71855712890621"><defs><path d="M190.76 134.3C179.52 134.3 170.4 143.42 170.4 154.66C170.4 163.66 176.24 171.29 184.33 173.98C185.34 174.17 185.71 173.54 185.71 173C185.71 172.52 185.7 171.24 185.69 169.54C180.02 170.77 178.83 166.81 178.83 166.81C177.9 164.46 176.57 163.83 176.57 163.83C174.72 162.57 176.71 162.59 176.71 162.59C178.75 162.74 179.83 164.69 179.83 164.69C181.64 167.8 184.59 166.9 185.75 166.38C185.94 165.07 186.46 164.17 187.05 163.66C182.52 163.15 177.77 161.4 177.77 153.6C177.77 151.37 178.56 149.56 179.87 148.13C179.66 147.62 178.96 145.55 180.06 142.75C180.06 142.75 181.77 142.2 185.66 144.83C187.29 144.38 189.03 144.16 190.76 144.15C192.49 144.16 194.23 144.38 195.86 144.83C199.75 142.2 201.45 142.75 201.45 142.75C202.56 145.55 201.87 147.62 201.66 148.13C202.96 149.56 203.75 151.37 203.75 153.6C203.75 161.42 198.99 163.14 194.45 163.64C195.18 164.27 195.83 165.52 195.83 167.42C195.83 170.14 195.81 172.33 195.81 173C195.81 173.55 196.18 174.18 197.21 173.98C205.29 171.28 211.12 163.66 211.12 154.66C211.12 143.42 202.01 134.3 190.76 134.3" id="d1f4GIlGl"></path></defs><g visibility="inherit"><g visibility="inherit"><use xlink:href="#d1f4GIlGl" opacity="1" fill="#1b1817" fill-opacity="1"></use><g><use xlink:href="#d1f4GIlGl" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g></g></svg>
+                </a>
+            </div>
+            <!-- CV -->
+            <div class="link">
+                <a href="https://drive.google.com/open?id=1jxURVjQl7WP-MugNsjwLDO3LzFvZ5OMXrYf3cS4u7ro">
+                    <img src="http://33.media.tumblr.com/bff532d18228142d6f68e7f09f711d51/tumblr_nf5wb0V5ul1rd8w8ao1_400.gif">
+                </a>
+            </div>
+            <!-- Email -->
+            <div class="link">
+                <a href="mailto:mrdanielmetcalfe@gmail.com">
+                    <svg id="email" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title/>
+                        <desc/>
+                        <defs/>
+                        <g fill="none" fill-rule="evenodd" id="miu" stroke="none" stroke-width="1">
+                            <g id="Artboard-1" transform="translate(-251.000000, -335.000000)">
+                                <g id="slice" transform="translate(215.000000, 119.000000)"/>
+                                <path d="M273.292692,355 L252.71095,355 L252.71095,355 L260.041535,347.665728 L263,349.929598 L265.960528,347.664149 L273.292692,355 Z M274,354.293095 L274,341.512204 L274,341.512204 L266.761657,347.051112 L274,354.293095 Z M252,354.296739 L252,341.512204 L259.240407,347.052691 L252,354.296739 L252,354.296739 Z M274,340.253884 L274,339 L252,339 L252,340.253884 L263,348.68741 L274,340.253884 Z" fill="#FFFFFF" id="common-email-envelope-mail-glyph"/>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="centre-column">
+            <img id="logo" src="images/DM.jpg" alt="logo">
+        </div>
+        <div id="right-column" class="side-column">
+            <div class="link">
+                <a href="https://uk.linkedin.com/in/mrdanielmetcalfe">
+                    <img src="http://33.media.tumblr.com/bff532d18228142d6f68e7f09f711d51/tumblr_nf5wb0V5ul1rd8w8ao1_400.gif">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://getpocket.com/@moderatemisbehaviour?s=invite">
+                    <img src="http://33.media.tumblr.com/bff532d18228142d6f68e7f09f711d51/tumblr_nf5wb0V5ul1rd8w8ao1_400.gif">
+                </a>
+            </div>
+            <div class="link">
+                <a href="https://twitter.com/">
+                    <img src="http://33.media.tumblr.com/bff532d18228142d6f68e7f09f711d51/tumblr_nf5wb0V5ul1rd8w8ao1_400.gif">
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
