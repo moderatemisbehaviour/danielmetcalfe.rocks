@@ -30,23 +30,5 @@
 }
 
 .link {
-    position: relative;
     height: 33.33%;
-}
-/*
-.link svg {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-*/
-.link img {
-    width: 62%;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
