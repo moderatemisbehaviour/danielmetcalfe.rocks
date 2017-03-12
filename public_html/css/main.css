@@ -2,7 +2,7 @@ body {
     background-color: orange;
 }
 
-.link, #centre-column {
+#centre-column {
     background-color: black;
 }
 
@@ -11,8 +11,7 @@ body {
     width: 0;
     position: absolute;
 }
-/*
+
 .link {
-    -webkit-mask: url(#circle);
+    border: 1em solid black;
 }
-*/
