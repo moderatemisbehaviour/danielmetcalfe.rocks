@@ -6,15 +6,16 @@
     height: 100%;
 }
 
-#left-column, #centre-column, #right-column {
+.column {
     /* Adjust for whitespace. */
     margin-right: -4px;
+    /* Elements flow normally from the top. */
+    /* Default value of 'baseline' caused centre column to render higher than side columns. */
+    vertical-align: top;
 }
 
 .side-column {
     display: inline-block;
-    /* Elements flow normally from the top. */
-    vertical-align: top;
     width: 19%;
 }
 
