@@ -7,6 +7,7 @@
 }
 
 .column {
+    height: 100%;
     /* Adjust for whitespace. */
     margin-right: -4px;
     /* Elements flow normally from the top. */
