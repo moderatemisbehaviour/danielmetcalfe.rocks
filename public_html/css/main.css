@@ -1,15 +1,31 @@
 body {
-    background-color: orange;
+    /* background: repeating-linear-gradient(to top right, #FAD64C 0%, #DF1FCC 20%, #FAD64C 4  0%); */
+    background: linear-gradient(225deg, #fad64c, #df1fcc, #fad64c, #df1fcc, #fad64c, #df1fcc, #fad64c, #df1fcc);
+    background-size: 200% 200%;
+
+    -webkit-animation: LavaFlow 30s ease infinite;
+    -moz-animation: LavaFlow 30s ease infinite;
+    animation: LavaFlow 30s ease infinite;
+}
+
+@-webkit-keyframes LavaFlow {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@-moz-keyframes LavaFlow {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@keyframes LavaFlow {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
 }
 
 #centre-column {
-    background-color:black;
-}
-
-.svg-def {
-    height: 0;
-    width: 0;
-    position: absolute;
+    border: 2em solid black;
 }
 
 .link {

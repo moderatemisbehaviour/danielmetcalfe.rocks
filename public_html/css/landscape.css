@@ -1,12 +1,9 @@
 #centre-column {
-    /* So can be used as an anchor for absolutely positioned inner elements. */
-    position: relative;
-    display: inline-block;
     width: 62%;
-    height: 100%;
 }
 
 .column {
+    display: inline-block;
     height: 100%;
     /* Adjust for whitespace. */
     margin-right: -4px;
@@ -16,7 +13,6 @@
 }
 
 .side-column {
-    display: inline-block;
     width: 19%;
 }
 
