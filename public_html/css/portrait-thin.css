@@ -1,7 +1,8 @@
 #centre-column {
     position: static;
     display: block;
-    height: 40%;
+    height: calc(40% + 1px);
+    margin-bottom: -1px;
 }
 
 .side-column {
@@ -11,6 +12,14 @@
 .link {
     display: block;
     width: auto;
-    height: 33.33%;
-    border: 1em solid black;
+    height: calc(33.33% + 1px);
+    margin-bottom: -1px;
+}
+
+#medium, #twitter {
+    width: 100%;
+}
+
+#twitter {
+    margin-bottom: 0;
 }

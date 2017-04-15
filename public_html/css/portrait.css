@@ -1,26 +1,22 @@
 .side-column {
-    height: 19%;
+    height: calc(19% + 1px);
+    margin-bottom: -1px;
 }
 
 #centre-column {
-    position: relative;
-    height: 62%;
-}
-
-#logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-height: 100%;
-    max-width: 100%;
+    height: calc(62% + 1px);
+    margin-bottom: -1px;
 }
 
 .link {
     display: inline-block;
     vertical-align: top;
-    width: 33.33%;
+    width: calc(33.33% + 1px);
     height: 100%;
-    /* Adjust for whitespace. */
-    margin-right: -4px;
+    margin-right: -5px;
+}
+
+#medium, #twitter {
+    width: 33.33%;
+    margin-right: 0px;
 }

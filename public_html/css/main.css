@@ -24,10 +24,8 @@ body {
     100%{background-position:93% 0%}
 }
 
-#centre-column {
-    border: 2em solid black;
-}
-
-.link {
-    border: 2em solid black;
+.column {
+    /* Remove scroll bar. */
+    /* TODO Find out why this is necessary. */
+    overflow-y: hidden;
 }
