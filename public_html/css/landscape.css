@@ -3,24 +3,24 @@
     /* 4px of the negative margin is to adjust for the whitespace added between
     all inline elements. The remaining 1px is to make the elements overlap so
     that rounding errors on mobile cannot be seen. */
-    margin-right: -5px;
+    margin-right: -1px;
 }
 
 #left-column {
     width: calc(19% + 1px);
-    margin-right: -5px;
+    margin-right: -1px;
 }
 
 #right-column {
-    width: 19%;
+    float: none;
+    width: auto;
+    overflow: hidden;
+    border-right: solid black 1px;
 }
 
 .column {
-    display: inline-block;
+    float: left;
     height: 100%;
-    /* Elements flow normally from the top. */
-    /* Default value of 'baseline' caused centre column to render higher than side columns. */
-    vertical-align: top;
 }
 
 .link {

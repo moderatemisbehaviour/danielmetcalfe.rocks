@@ -6,17 +6,20 @@
 #centre-column {
     height: calc(62% + 1px);
     margin-bottom: -1px;
+    border-right: solid black 1px;
 }
 
 .link {
-    display: inline-block;
-    vertical-align: top;
+    float: left;
     width: calc(33.33% + 1px);
     height: 100%;
-    margin-right: -5px;
+    margin-right: -1px;
 }
 
 #medium, #twitter {
-    width: 33.33%;
+    float: none;
+    width: auto;
+    overflow: hidden;
     margin-right: 0px;
+    border-right: solid black 1px;
 }
