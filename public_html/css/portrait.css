@@ -17,7 +17,7 @@
 }
 
 #technology-summary .column {
-    margin-bottom: 1em;
+    margin-bottom: 1em; /* Separate lists when displayed one after another. */
 }
 
 #technology-summary .last-column {
