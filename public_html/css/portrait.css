@@ -10,10 +10,18 @@
     margin-right: -1px;
 }
 
-#centre-column {
+.centre-column {
     height: calc(62% + 1px);
     margin-bottom: -1px;
     border-right: solid black 1px;
+}
+
+#technology-summary .column {
+    margin-bottom: 1em;
+}
+
+#technology-summary .last-column {
+    margin-bottom: unset;
 }
 
 #medium, #twitter {

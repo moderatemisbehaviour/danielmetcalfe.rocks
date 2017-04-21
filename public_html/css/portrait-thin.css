@@ -1,4 +1,4 @@
-#centre-column {
+.centre-column {
     position: static;
     display: block;
     height: calc(40% + 1px);

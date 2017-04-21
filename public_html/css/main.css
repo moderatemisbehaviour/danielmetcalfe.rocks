@@ -27,6 +27,7 @@ body {
 }
 
 section {
+    text-align: center;
     overflow-y: hidden;
 }
 
@@ -34,14 +35,6 @@ section {
     /* Remove scroll bar. */
     /* TODO Find out why this is necessary. */
     overflow-y: hidden;
-}
-
-section {
-    text-align: center;
-}
-
-#business-card {
-    height: 100%;
 }
 
 h1 {
@@ -57,6 +50,11 @@ h1 {
     padding: 1em;
     background-color: black;
     color: white;
+    overflow-y: hidden;
+}
+
+#business-card {
+    height: 100%;
 }
 
 ul {
