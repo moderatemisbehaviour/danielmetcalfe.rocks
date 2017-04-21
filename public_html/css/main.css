@@ -6,6 +6,8 @@ body {
     -webkit-animation: LavaFlow 30s ease infinite;
     -moz-animation: LavaFlow 30s ease infinite;
     animation: LavaFlow 30s ease infinite;
+
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 @-webkit-keyframes LavaFlow {
@@ -45,9 +47,11 @@ section {
 
 h1 {
     padding: 0.2em;
-    font-size: 3em;
+    font-size: 1.61em;
     text-transform: uppercase;
     line-height: 1em;
+    font-weight: 200;
+    letter-spacing: 0.2em;
 }
 
 .section-body {
@@ -67,11 +71,9 @@ li {
 
 table {
     margin: 0 auto; /* Centre table. */
-}
-
-th, td {
-    width: 33vw;
-    max-width: 13em;
+    width: 100%;
+    max-width: 30em;
+    table-layout: fixed;
 }
 
 svg {
