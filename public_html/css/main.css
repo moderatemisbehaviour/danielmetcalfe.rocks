@@ -37,7 +37,6 @@ section {
 }
 
 section {
-    height: 100%;
     text-align: center;
 }
 
@@ -55,7 +54,6 @@ h1 {
 }
 
 .section-body {
-    height: 100vh;
     padding: 1em;
     background-color: black;
     color: white;
