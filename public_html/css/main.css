@@ -6,8 +6,6 @@ body {
     -webkit-animation: LavaFlow 30s ease infinite;
     -moz-animation: LavaFlow 30s ease infinite;
     animation: LavaFlow 30s ease infinite;
-
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 @-webkit-keyframes LavaFlow {
@@ -27,7 +25,6 @@ body {
 }
 
 section {
-    text-align: center;
     overflow-y: hidden;
 }
 
@@ -37,28 +34,42 @@ section {
     overflow-y: hidden;
 }
 
-h1 {
-    padding: 0.2em;
-    font-size: 1.61em;
-    text-transform: uppercase;
-    line-height: 1em;
-    font-weight: 200;
-    letter-spacing: 0.2em;
-}
-
 .section-body {
     padding: 1em;
     background-color: black;
-    color: white;
     overflow-y: hidden;
+}
+
+h1 {
+    padding: 0.2em;
 }
 
 #contact-card {
     height: 100%;
 }
 
-ul {
+#summary ul {
     list-style-position: inside; /* Centre bullet points with text. */
+}
+
+#professional-experience ul {
+    clear: both;
+    /* Having to use this due to the zero height container problem.
+    TODO Use inline-block or flexbox to avoid this.
+    http://stackoverflow.com/questions/8554043/what-is-a-clearfix */
+    padding: 0.1em 0;
+}
+
+#education p {
+    clear: both;
+    /* Having to use this due to the zero height container problem.
+    TODO Use inline-block or flexbox to avoid this.
+    http://stackoverflow.com/questions/8554043/what-is-a-clearfix */
+    padding: 1em 0;
+}
+
+.job-header {
+    margin-bottom: 1em;
 }
 
 li {
@@ -70,6 +81,23 @@ table {
     width: 100%;
     max-width: 30em;
     table-layout: fixed;
+}
+
+.employer, .job-title, .employment-start-finish, .employment-location, .educator, .grade, .education-start-finish {
+    float: left;
+    width: 50%;
+}
+
+.employment-start-finish, .education-start-finish {
+    clear: left;
+}
+
+.employment-location {
+    clear: right;
+}
+
+#education p, .qualification-level {
+    clear: both;
 }
 
 svg {

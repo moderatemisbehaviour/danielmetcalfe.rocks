@@ -16,6 +16,18 @@
     border-right: solid black 1px;
 }
 
+#medium, #twitter {
+    float: none;
+    width: auto;
+    overflow: hidden;
+    margin-right: 0px;
+    border-right: solid black 1px;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
 #technology-summary .column {
     margin-bottom: 1em; /* Separate lists when displayed one after another. */
 }
@@ -24,10 +36,11 @@
     margin-bottom: unset;
 }
 
-#medium, #twitter {
-    float: none;
-    width: auto;
-    overflow: hidden;
-    margin-right: 0px;
-    border-right: solid black 1px;
+.employer, .job-title, .employment-start-finish, .employment-location, .educator, .grade, .education-start-finish,
+.qualification-level, .qualification {
+    clear: unset;
+    float: unset;
+    width: unset;
+
+    text-align: center;
 }
