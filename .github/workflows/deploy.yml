@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - uses: google-github-actions/setup-gcloud@master
         with:
           service_account_key: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY }}
       - name: Sync files with bucket
-        run: gsutil rsync -R src/ gs://danielmetcalfe.rocks
+        run: gsutil rsync -R $GITHUB_WORKSPACE/src/ gs://danielmetcalfe.rocks
